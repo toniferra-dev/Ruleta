@@ -1,12 +1,13 @@
-:root{
+:root {
     /* colores */
     --fondo: #2f2f2fee;
+    --fondoOscuro: #303030ee;
     --texto: #c6c6c6;
     --tipografia: sans-serif;
     --nota: #d3d498;
 }
 
-body{
+body {
     /* colores y tipografia general */
     background-color: var(--fondo);
     color: var(--texto);
@@ -14,8 +15,23 @@ body{
     /* margenes */
     padding: 10%;
 }
-
-input{
+/* HEADER */
+header {
+    height: 20vh;
+    text-align: center;
+}
+.titulo {
+    font-size: 2em;
+    margin: 0;
+}
+.subtitulo {
+    font-size: 1em;
+}
+/* MAIN */
+main {
+    height: 80vh;
+}
+#mi-input {
     background-color: transparent;
     border: 0;
     border-bottom: 1px solid var(--texto);
@@ -23,14 +39,19 @@ input{
     color: var(--texto);
 }
 
-#nota{
+#nota {
     color: var(--nota);
 }
 
-.titulo{
-    font-size: 2em;
-    margin: 0;
+/* RESPUESTA */
+.respuestas {
+    background-color: var(--fondoOscuro);
+    height: 80%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
 }
-.subtitulo{
-    font-size: 1em;
+#respuesta {
+    font-size: 2em;
 }
