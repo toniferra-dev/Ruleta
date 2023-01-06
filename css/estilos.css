@@ -44,7 +44,6 @@ main {
 /* RESPUESTA */
 .respuestas {
     background-color: var(--fondoOscuro);
-    height: 80%;
     display: flex;
     flex-flow: column nowrap;
     justify-content: center;
