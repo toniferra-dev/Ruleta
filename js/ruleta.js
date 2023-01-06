@@ -49,9 +49,6 @@ boton.addEventListener("click", function (evento) {
     // preguntaH4.innerHTML = valor;
     respuestaH5.innerHTML = obtenerRespuesta();
 
-    // limpiar input
-    miInput.value = "";
-
     // información
     info.innerHTML = "* Si no es la respuesta que esperabas, vuelve a probar."
 
