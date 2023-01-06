@@ -51,6 +51,7 @@ main {
     flex-flow: column nowrap;
     justify-content: center;
     align-items: center;
+    padding: 0 5%;
 }
 #respuesta {
     font-size: 2em;
