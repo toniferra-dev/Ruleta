@@ -1,5 +1,5 @@
 // Variables
-const miFormulario = document.querySelector("#mi-formulario");
+const boton = document.querySelector("#btnexcusa");
 // const preguntaH4 = document.querySelector("#pregunta");
 const respuestaH5 = document.querySelector("#respuesta");
 const info = document.querySelector("#nota");
@@ -8,14 +8,7 @@ const info = document.querySelector("#nota");
 
 // FORMULARIO
 // Recoger pregunta
-miFormulario.addEventListener("submit", function (evento) {
-    evento.preventDefault(); // Evita que el formulario se envíe
-
-    const miInput = document.querySelector("#mi-input");
-    const valor = miInput.value;
-
-    console.log(`El valor del input es: ${valor}`);
-
+boton.addEventListener("click", function (evento) {
 
     // RESPUESTAS aleatorias
     // Crea una matriz de respuestas posibles

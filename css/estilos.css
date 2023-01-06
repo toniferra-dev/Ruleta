@@ -30,6 +30,11 @@ header {
 /* MAIN */
 main {
     height: 80vh;
+    text-align: center;
+}
+#btnexcusa{
+    font-size: 3em;
+    border-radius: 10px;
 }
 #mi-input {
     background-color: transparent;
