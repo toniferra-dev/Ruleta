@@ -1,0 +1,36 @@
+:root{
+    /* colores */
+    --fondo: #2f2f2fee;
+    --texto: #c6c6c6;
+    --tipografia: sans-serif;
+    --nota: #d3d498;
+}
+
+body{
+    /* colores y tipografia general */
+    background-color: var(--fondo);
+    color: var(--texto);
+    font-family: var(--tipografia);
+    /* margenes */
+    padding: 10%;
+}
+
+input{
+    background-color: transparent;
+    border: 0;
+    border-bottom: 1px solid var(--texto);
+    width: 100%;
+    color: var(--texto);
+}
+
+#nota{
+    color: var(--nota);
+}
+
+.titulo{
+    font-size: 2em;
+    margin: 0;
+}
+.subtitulo{
+    font-size: 1em;
+}

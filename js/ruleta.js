@@ -40,7 +40,7 @@ miFormulario.addEventListener("submit", function (evento) {
     miInput.value = "";
 
     // información
-    info.innerHTML = "Si no es la respuesta que esperabas, vuelve a probar."
+    info.innerHTML = "* Si no es la respuesta que esperabas, vuelve a probar."
 
 });
 
