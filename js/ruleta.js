@@ -31,13 +31,15 @@ boton.addEventListener("click", function (evento) {
         "Tiene erratas",
         "No lo hace FFG",
         "Me duele la espalda",
-        "Te escribo pro privado",
+        "Te escribo por privado",
         "Estoy castigado",
         "Eso es un euro",
         "Tengo a la niña",
         "Bueno, ya son las 21h...",
         "Mi madre no me deja",
-        "Eso es fanmade"
+        "Eso es fanmade",
+        "No me estas remando en la dirección adecuada",
+        "Así no ayudas"
     ];
 
     // Esta función devuelve una respuesta aleatoria de la matriz
