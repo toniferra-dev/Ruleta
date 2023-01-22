@@ -10,6 +10,10 @@
 body {
     /* colores y tipografia general */
     background-color: var(--fondo);
+    background-image: url(/img/fondo.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
     color: var(--texto);
     font-family: var(--tipografia);
     /* margenes */
@@ -21,7 +25,7 @@ header {
     text-align: center;
 }
 .titulo {
-    font-size: 2em;
+    font-size: 3em;
     margin: 0;
 }
 .subtitulo {
@@ -35,6 +39,7 @@ main {
 #btnexcusa{
     font-size: 3em;
     border-radius: 10px;
+    margin-top: 3em;
 }
 
 #nota {
