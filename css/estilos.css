@@ -9,7 +9,7 @@
 
 body {
     /* colores y tipografia general */
-    background-image: url(/img/fondo.jpg);
+    background: url(/img/fondo.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: right;
