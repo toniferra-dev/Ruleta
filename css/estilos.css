@@ -9,7 +9,6 @@
 
 body {
     /* colores y tipografia general */
-    background-color: var(--fondo);
     background-image: url(/img/fondo.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -27,9 +26,11 @@ header {
 .titulo {
     font-size: 3em;
     margin: 0;
+    text-shadow: 0 4px 0 black;
 }
 .subtitulo {
     font-size: 1em;
+    text-shadow: 0 2px 0 black;
 }
 /* MAIN */
 main {
