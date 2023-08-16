@@ -20,31 +20,7 @@ miFormulario.addEventListener("submit", function (evento) {
     // RESPUESTAS aleatorias
     // Crea una matriz de respuestas posibles
     const respuestas = [
-        "Ellos se lo pierden",
-        "Me da pereza",
-        "No va conmigo",
-        "Ya veré que se puede hacer",
-        "Es que genera envidias",
-        "No nos da la vida",
-        "No tengo tiempo",
-        "Tengo que hablarlo con Penélope",
-        "No me gusta repetir juegos",
-        "Tengo el coche averiado",
-        "Penélope no abre la cartera",
-        "No es nuestro target",
-        "🤷🏻‍♂️",
-        "😂",
-        "El manual es un infierno",
-        "Tiene erratas",
-        "No lo hace FFG",
-        "Me duele la espalda",
-        "Te escribo pro privado",
-        "Estoy castigado",
-        "Eso es un euro",
-        "Tengo a la niña",
-        "Bueno, ya son las 21h...",
-        "Mi madre no me deja",
-        "Eso es fanmade"
+        "05", "07", "08", "10", "17", "18"
     ];
 
     // Esta función devuelve una respuesta aleatoria de la matriz
